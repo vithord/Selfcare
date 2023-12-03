@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr{
+    color: #A5A1A1;
+    margin-top: 40px;
+}
+
+.tool{
+    height: 25px;
+}
+
+#selfcare-logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.user-tools{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 10vw;
+    height: 60px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#banner-sec{
+    width: 100%;
+    height: 340px;
+}
+
+#banner{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+#content{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+}
+
+.cat-produto{
+    width: 100%;
+    height: 420px;
+    display: flex;
+    margin: 0px 0px 10px 0px;
+    justify-content: space-evenly;
+}
+
+.produto{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.img-prod{
+    width: 100%;
+    height: 312px;
+    position: relative;
+    padding-top: 9px;
+}
+
+.produto > p > strong{
+    color: #5CA720;
+    text-decoration: underline #5CA720 solid 2px;
+}
+
+.desc-prod{
+    visibility: hidden;
+}
+
+.img-prod:hover > .desc-prod{
+    height: 155px;
+    width: 100%;
+    visibility: visible;
+    transition: 0.2s;
+    position: absolute;
+    top: 50%;
+    color: black;
+    background-color: rgba(92, 167, 32, 0.7);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+main > section > div > figure > img{
+    height: 300px;
+    width: 100%;
+}
+
+.buy-prod{
+    height: 40px;
+    width: 35%;
+    background-color: #5CA720;
+    text-align: center;
+    color: #ffff;
+    border: none;
+    box-shadow: 0px 3px 4px 0px black;
+    border-radius: 15px;
+    font-size: 1.2em;
+}
+
+.buy-prod:hover{
+    transition: 0.2s;
+    background-color: #512200BD;
+}
+main > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+main > p > strong{
+    color: #5CA720;
+}
+
+footer{
+    position: relative;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer > section > nav{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.input-email{
+    display: inline-block;
+    width: 40vw;
+    height: fit-content;
+}
+
+section > div > hr{
+    color: #A5A1A1;
+    margin-top: 30px;
+    width: 83%;
+}
+
+.input-email > div > #email{
+    width: 25vw;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.input-email > div{
+    border-radius: 6px;
+}
+
+.input-email > div > button{
+    width: 20%;
+    height: 50px;
+    background-color: #5CA720;
+    border: none;
+    color: #ffff;
+    font-size: medium;
+    text-align: center;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 10vw;
+}
+
+.sites{
+    width: 10%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sites > a{
+    width: 5vw;
+    height: 40px;
+    display: flex;
+}
+.sites > a > img{
+    width: 3vw;
+    height: 40px;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-between;
+    stroke-width: 30vw;
+    height: 30px;
+}
